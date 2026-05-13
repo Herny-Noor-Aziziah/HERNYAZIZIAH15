@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Tombol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn1 { background-color: #3498db; }
+        .btn2 { background-color: #2ecc71; }
+        .btn3 { background-color: #e74c3c; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://google.com" class="btn btn1" target="_blank">google form</a>
+        <a href="https://youtube.com" class="btn btn2" target="_blank">sajian data1</a>
+        <a href="https://instagram.com" class="btn btn3" target="_blank">sajian data2</a>
+    </div>
+</body>
+</html>
